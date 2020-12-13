@@ -6,7 +6,7 @@ $ cargo build --release
 $ arm-none-eabi-nm -D target/thumbv7m-none-eabi/release/libpwrm_ffi.a
 $ arm-none-eabi-objdump --disassemble  target/thumbv7m-none-eabi/release/libpwrm_ffi.a |less
 ```
-If the last two commands executes with error it is possible that choosed MCU architucture is wrong.
+If the last two commands executes with error it is possible that choosen MCU architucture is wrong.
 In that case commands down below will executes without any errors.
 ```
 $ arm-none-eabi-nm -D target/thumbv7m-none-eabi/release/libpwrm_ffi.a
